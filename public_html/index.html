@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+	<head>
+		<!-- UIkit CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+	</head>
+	<body>
+		<div class="uk-container uk-padding">
+			<article class="uk-article">
+				<h1 class="uk-article-title uk-heading-line uk-text-center"><a class="uk-link-reset" href="#"><span uk-icon="check"></span> Utopia WebApp Example</a></h1>
+
+				<p class="uk-article-meta">Written by <a href="#">Sagleft</a> on 03 February 2020. Posted in <a href="#">Utopia Ecosystem</a></p>
+
+				<p class="uk-text-lead">A lightweight web application template that uses the Utopia RESTful API to request information from the Utopia Ecosystem.</p>
+			</article>
+			<hr class="uk-divider-icon">
+			<div class="uk-child-width-expand@s" uk-grid>
+				<div>
+					<div class="uk-card uk-card-default uk-card-body uk-padding-small">
+						<p class="uk-text-center"><b>Utopia uNS Information</b></p>
+						<ul class="uk-list uk-list-striped">
+							<li>Last record names registered: <span id="data_uNS_lastname"></span></li>
+							<li>Local blocks: <span id="data_uNS_localblocks"></span></li>
+							<li>Total blocks: <span id="data_uNS_totalblocks"></span></li>
+							<li>Peers blocks: <span id="data_uNS_peers"></span></li>
+							<li>State: <span id="data_uNS_state"></span></li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card uk-card-default uk-card-body uk-padding-small">
+						<p class="uk-text-center"><b>Crypton Currency Rate</b></p>
+						<ul class="uk-list uk-list-striped">
+							<li>1 CRP = <span id="data_CRP_BTC"></span> BTC</li>
+							<li>1 CRP = <span id="data_CRP_ETH"></span> ETH</li>
+							<li>1 CRP = <span id="data_CRP_LTC"></span> LTC</li>
+							<li>1 CRP = <span id="data_CRP_RUB"></span> RUB</li>
+							<li>1 CRP = <span id="data_CRP_EUR"></span> EUR</li>
+							<li>1 CRP = <span id="data_CRP_CNY"></span> CNY</li>
+							<li>1 CRP = <span id="data_CRP_USD"></span> USD</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- UIkit JS -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+		<script src="js/test.js"></script>
+	</body>
+</html>
